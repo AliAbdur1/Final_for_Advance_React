@@ -29,7 +29,7 @@ function Navigation() {
 
           </div>
             <Link to="/" style={{float: "left", marginLeft: "70px"}}>Home</Link>
-            <Link to="/about" style={{float: "left", marginLeft: "30px"}}>About</Link>
+            <Link to="/about" style={{float: "left", marginLeft: "30px"}}>Skill Set</Link>
             <Link to="/contact" style={{float: "right", marginRight: "70px"}}>Contact</Link>
             <Link to="/my_work" style={{float: "right", marginRight: "50px"}}>My Work</Link>
         </nav>

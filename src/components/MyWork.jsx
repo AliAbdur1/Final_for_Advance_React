@@ -19,7 +19,7 @@ function MyWork() {
                 <h2>Calculator App</h2>
                 <p >a simple application that allows you to add, subtract, multiply and divide</p>
                 <br/>
-                <p ><strong>See More →</strong></p>
+                
               </div>
               </div>
             <div>
@@ -30,20 +30,37 @@ function MyWork() {
                 <h2>Friends App</h2>
                 <p>an application that allows you to make a list of your friends.</p>
                 <br/>
-                <p ><strong>See More →</strong></p>
+                
               </div>
             </div>
             <div>
+
               <div className="link_info">
-              <a href='#'>
-              <img src="/T52-7-Day.webp" alt="weather picture" width={200} style={{borderRadius: '10%'}}/>
+              <a href='https://frumpzone.vercel.app/' target='_blank'>
+              <img src="/social_logo.webp" alt="social media app logo" width={200} style={{borderRadius: '10%'}}/>
               </a>
-                <h2>waether App</h2>
-                <p>an application that allows you to View weather in different cities...link does not actually work</p>
+                <h2>Social media App</h2>
+                <p>A social media app that use Clerk for user authentication handling and Neon for backend data communication </p>
                 <br/>
-                <p ><strong>See More →</strong></p>
+                
               </div>
+              
             </div>
+            <div>
+
+              <div className="link_info">
+              <a href='https://frumpybumples.onrender.com/' target='_blank'>
+              <img src="/paint-logo.png" alt="art-site app logo" width={200} style={{borderRadius: '10%'}}/>
+              </a>
+                <h2>Art portfolio site</h2>
+                <p>A portfolio site for sharing my art and recieving feedback via email</p>
+                <br/>
+                
+              </div>
+              
+            </div>
+
+            
           </div>
         
       
