@@ -90,12 +90,41 @@
 } */
 
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 1024px) {
+  .main-nav {
+    transform: scale(0.8);
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .app {
+    width: 100vw;
+  }
+  .main-nav {
+    width: 100vw;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-nav {
+    width: 100vw;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1rem;
   }
 }
 
